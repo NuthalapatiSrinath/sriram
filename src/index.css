@@ -1,0 +1,102 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* ═══ 5 CORE VARIABLES — Steel Navy Palette ═══ */
+    --c-blue: #1e3a8a;
+    --c-blue-light: #3b82f6;
+    --c-blue-dark: #172554;
+    --c-white: #ffffff;
+    --c-ice: #dbeafe;
+
+    /* Mapped tokens (all derived from 5 core vars) */
+    --color-primary: var(--c-blue);
+    --color-primary-hover: var(--c-blue-dark);
+    --color-primary-light: var(--c-ice);
+    --color-primary-text: var(--c-blue-dark);
+
+    --color-page: var(--c-white);
+    --color-card: var(--c-white);
+    --color-border: #93c5fd;
+
+    --color-text-main: #0f172a;
+    --color-text-sub: #1e3a8a;
+    --color-text-muted: #60a5fa;
+    --color-text-inverse: var(--c-white);
+
+    --color-input-bg: var(--c-white);
+    --color-input-border: #93c5fd;
+    --color-input-focus: var(--c-blue);
+
+    --color-grad-start: var(--c-ice);
+    --color-grad-mid: var(--c-white);
+    --color-grad-end: #bfdbfe;
+    --color-blob: rgba(30, 58, 138, 0.07);
+
+    --color-danger: var(--c-blue);
+    --color-danger-bg: var(--c-ice);
+    --color-success: var(--c-blue);
+    --color-success-bg: var(--c-ice);
+
+    --shadow-color: rgba(30, 58, 138, 0.08);
+  }
+
+  /* ═══ DARK MODE — same 5 vars, inverted ═══ */
+  .dark {
+    --c-blue: #60a5fa;
+    --c-blue-light: #93c5fd;
+    --c-blue-dark: #3b82f6;
+    --c-white: #0a0f1e;
+    --c-ice: #0f1728;
+
+    --color-primary: var(--c-blue);
+    --color-primary-hover: var(--c-blue-light);
+    --color-primary-light: rgba(59, 130, 246, 0.12);
+    --color-primary-text: var(--c-blue);
+
+    --color-page: var(--c-white);
+    --color-card: #0f1728;
+    --color-border: #1e2d4a;
+
+    --color-text-main: #dbeafe;
+    --color-text-sub: #93c5fd;
+    --color-text-muted: #3b6fa0;
+    --color-text-inverse: #0a0f1e;
+
+    --color-input-bg: #0f1728;
+    --color-input-border: #1e2d4a;
+    --color-input-focus: var(--c-blue);
+
+    --color-grad-start: #0a0f1e;
+    --color-grad-mid: #0f1728;
+    --color-grad-end: #162040;
+    --color-blob: rgba(59, 130, 246, 0.1);
+
+    --color-danger: var(--c-blue-light);
+    --color-danger-bg: rgba(59, 130, 246, 0.12);
+    --color-success: var(--c-blue-light);
+    --color-success-bg: rgba(59, 130, 246, 0.12);
+
+    --shadow-color: rgba(0, 0, 0, 0.45);
+  }
+
+  body {
+    background-color: var(--color-page);
+    color: var(--color-text-main);
+    @apply font-sans antialiased transition-colors duration-300;
+  }
+}
+
+/* Polished Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--c-blue-light);
+  border-radius: 99px;
+}
