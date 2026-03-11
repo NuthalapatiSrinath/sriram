@@ -2,6 +2,12 @@
 @import "tailwindcss";
 
 @layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   :root {
     /* ═══ 5 CORE VARIABLES — Steel Navy Palette ═══ */
     --c-blue: #1e3a8a;
@@ -81,10 +87,25 @@
     --shadow-color: rgba(0, 0, 0, 0.45);
   }
 
+  html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
   body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
     background-color: var(--color-page);
     color: var(--color-text-main);
     @apply font-sans antialiased transition-colors duration-300;
+  }
+
+  #root {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
   }
 }
 

@@ -723,7 +723,7 @@ const AnnouncementBar = ({ isVisible }) => {
           />
 
           <div
-            className="relative max-w-7xl mx-auto px-4 py-1.5 flex items-center justify-center"
+            className="relative max-w-7xl mx-auto px-3 md:px-4 py-1 md:py-1.5 flex items-center justify-center"
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
           >
@@ -2766,10 +2766,10 @@ const Header = () => {
         <div className="relative">
           <HeaderBackground scrolled={scrolled} />
 
-          <div className="relative max-w-7xl mx-auto px-4">
+          <div className="relative max-w-7xl mx-auto px-3 md:px-4">
             <div
               className={`flex items-center justify-between transition-all duration-500 ${
-                scrolled ? "py-2" : "py-3"
+                scrolled ? "py-1.5 md:py-2" : "py-2 md:py-3"
               }`}
             >
               {/* Left: Logo */}
@@ -2878,10 +2878,10 @@ const Header = () => {
       <div
         className={`transition-all duration-500 ${
           showAnnouncement && showUtilityBar
-            ? "h-[140px] lg:h-[150px]"
+            ? "h-[88px] lg:h-[150px]"
             : scrolled
-              ? "h-[56px]"
-              : "h-[68px]"
+              ? "h-[48px] lg:h-[56px]"
+              : "h-[56px] lg:h-[68px]"
         }`}
       />
 

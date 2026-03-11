@@ -4,7 +4,11 @@ import Courses from "../components/home/Courses";
 import AboutUs from "../components/home/AboutUs";
 import CelebratingSelections from "../components/home/CelebratingSelections";
 import FindOfflineCenters from "../components/home/FindOfflineCenters";
+import CurrentAffairs from "../components/home/CurrentAffairs";
+import WhyChooseSriram from "../components/home/WhyChooseSriram";
 import Testimonials from "../components/home/Testimonials";
+import TeachingExperts from "../components/home/TeachingExperts";
+import VideoCorner from "../components/home/VideoCorner";
 
 /* ═══════════════════════════════════════════════════════════════════
    HOME PAGE COMPONENT
@@ -28,8 +32,20 @@ const Home = () => {
       {/* Find Offline Centers Section */}
       <FindOfflineCenters />
 
+      {/* Current Affairs Section */}
+      <CurrentAffairs />
+
+      {/* Why Choose Sriram Section */}
+      <WhyChooseSriram />
+
       {/* Testimonials Section */}
       <Testimonials />
+
+      {/* Teaching Experts Section */}
+      <TeachingExperts />
+
+      {/* Video Corner Section */}
+      <VideoCorner />
     </div>
   );
 };

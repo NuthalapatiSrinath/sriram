@@ -181,7 +181,7 @@ const HeroBanner = () => {
               transition={{ duration: 7 }}
             />
             <div
-              className={`absolute inset-0 bg-gradient-to-r ${slide.gradient} opacity-90`}
+              className={`absolute inset-0 bg-gradient-to-r ${slide.gradient} opacity-60`}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           </div>

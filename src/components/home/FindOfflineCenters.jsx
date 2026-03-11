@@ -142,7 +142,8 @@ const CENTERS_DATA = [
     region: "north",
     flagship: true,
     established: "2005",
-    address: "25/18, Old Rajinder Nagar, Near Karol Bagh Metro Station, New Delhi - 110060",
+    address:
+      "25/18, Old Rajinder Nagar, Near Karol Bagh Metro Station, New Delhi - 110060",
     phone: ["+91 11 2874 5612", "+91 98100 54321"],
     email: "delhi.orn@sriramias.com",
     timing: "Mon - Sat: 8:00 AM - 8:00 PM | Sunday: 9:00 AM - 5:00 PM",
@@ -151,14 +152,35 @@ const CENTERS_DATA = [
     selections: "200+",
     rating: 4.9,
     reviews: 2340,
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
     gradient: "from-blue-600 to-indigo-700",
     badge: "Flagship Center",
     badgeColor: "from-amber-500 to-orange-500",
     mapUrl: "https://maps.google.com",
-    courses: ["Foundation", "Prelims", "Mains", "Optional", "Test Series", "Interview"],
-    amenities: ["AC Classrooms", "Library", "WiFi", "Cafeteria", "Parking", "Smart Boards", "Discussion Rooms", "Printing"],
-    transport: ["Karol Bagh Metro - 5 min walk", "NDLS Railway Station - 3 km", "IGI Airport - 16 km"],
+    courses: [
+      "Foundation",
+      "Prelims",
+      "Mains",
+      "Optional",
+      "Test Series",
+      "Interview",
+    ],
+    amenities: [
+      "AC Classrooms",
+      "Library",
+      "WiFi",
+      "Cafeteria",
+      "Parking",
+      "Smart Boards",
+      "Discussion Rooms",
+      "Printing",
+    ],
+    transport: [
+      "Karol Bagh Metro - 5 min walk",
+      "NDLS Railway Station - 3 km",
+      "IGI Airport - 16 km",
+    ],
     highlights: [
       "India's #1 rated IAS coaching center",
       "Personal mentorship by ex-IAS officers",
@@ -168,39 +190,6 @@ const CENTERS_DATA = [
   },
   {
     id: 2,
-    name: "SRIRAM IAS - Mukherjee Nagar",
-    shortName: "Mukherjee Nagar",
-    city: "New Delhi",
-    state: "Delhi",
-    region: "north",
-    flagship: false,
-    established: "2010",
-    address: "Block 4, Batra Cinema Complex, Mukherjee Nagar, Delhi - 110009",
-    phone: ["+91 11 2764 3891"],
-    email: "delhi.mn@sriramias.com",
-    timing: "Mon - Sat: 8:00 AM - 8:00 PM | Sunday: 10:00 AM - 4:00 PM",
-    students: "12,000+",
-    faculty: "28+",
-    selections: "150+",
-    rating: 4.8,
-    reviews: 1890,
-    image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&q=80",
-    gradient: "from-emerald-600 to-teal-700",
-    badge: "Popular Choice",
-    badgeColor: "from-blue-500 to-indigo-500",
-    mapUrl: "https://maps.google.com",
-    courses: ["Foundation", "Prelims", "Mains", "Optional", "Test Series"],
-    amenities: ["AC Classrooms", "Library", "WiFi", "Smart Boards", "Discussion Rooms", "Cafeteria"],
-    transport: ["GTB Nagar Metro - 8 min walk", "Vishwavidyalaya Metro - 2 km"],
-    highlights: [
-      "Hub for UPSC aspirants community",
-      "Weekly group discussion sessions",
-      "Dedicated current affairs center",
-      "Affordable hostel tie-ups nearby",
-    ],
-  },
-  {
-    id: 3,
     name: "SRIRAM IAS - Chennai",
     shortName: "Chennai Center",
     city: "Chennai",
@@ -217,14 +206,26 @@ const CENTERS_DATA = [
     selections: "90+",
     rating: 4.8,
     reviews: 1240,
-    image: "https://images.unsplash.com/photo-1568992688065-536aad8a12f6?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1568992688065-536aad8a12f6?w=800&q=80",
     gradient: "from-purple-600 to-pink-700",
     badge: "South India's Best",
     badgeColor: "from-purple-500 to-pink-500",
     mapUrl: "https://maps.google.com",
     courses: ["Foundation", "Prelims", "Mains", "Optional", "Test Series"],
-    amenities: ["AC Classrooms", "Library", "WiFi", "Smart Boards", "Parking", "Cafeteria"],
-    transport: ["Nandanam Metro - 3 min walk", "Chennai Central - 8 km", "Chennai Airport - 15 km"],
+    amenities: [
+      "AC Classrooms",
+      "Library",
+      "WiFi",
+      "Smart Boards",
+      "Parking",
+      "Cafeteria",
+    ],
+    transport: [
+      "Nandanam Metro - 3 min walk",
+      "Chennai Central - 8 km",
+      "Chennai Airport - 15 km",
+    ],
     highlights: [
       "Tamil & English medium classes",
       "Strong focus on TNPSC + UPSC combo",
@@ -233,7 +234,7 @@ const CENTERS_DATA = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     name: "SRIRAM IAS - Bangalore",
     shortName: "Bangalore Center",
     city: "Bangalore",
@@ -250,14 +251,25 @@ const CENTERS_DATA = [
     selections: "70+",
     rating: 4.7,
     reviews: 980,
-    image: "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
     gradient: "from-cyan-600 to-blue-700",
     badge: "Tech Hub Center",
     badgeColor: "from-cyan-500 to-blue-500",
     mapUrl: "https://maps.google.com",
     courses: ["Foundation", "Prelims", "Mains", "Test Series"],
-    amenities: ["AC Classrooms", "Library", "WiFi", "Smart Boards", "Discussion Rooms"],
-    transport: ["MG Road Metro - 2 min walk", "Bangalore City Station - 5 km", "Airport - 35 km"],
+    amenities: [
+      "AC Classrooms",
+      "Library",
+      "WiFi",
+      "Smart Boards",
+      "Discussion Rooms",
+    ],
+    transport: [
+      "MG Road Metro - 2 min walk",
+      "Bangalore City Station - 5 km",
+      "Airport - 35 km",
+    ],
     highlights: [
       "Popular among IT professionals",
       "Evening & weekend flexible batches",
@@ -266,7 +278,7 @@ const CENTERS_DATA = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     name: "SRIRAM IAS - Hyderabad",
     shortName: "Hyderabad Center",
     city: "Hyderabad",
@@ -283,52 +295,26 @@ const CENTERS_DATA = [
     selections: "45+",
     rating: 4.7,
     reviews: 720,
-    image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80",
+    image:
+      "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80",
     gradient: "from-rose-600 to-red-700",
     badge: "Growing Fast",
     badgeColor: "from-rose-500 to-red-500",
     mapUrl: "https://maps.google.com",
     courses: ["Foundation", "Prelims", "Mains", "Test Series"],
-    amenities: ["AC Classrooms", "Library", "WiFi", "Smart Boards", "Cafeteria"],
+    amenities: [
+      "AC Classrooms",
+      "Library",
+      "WiFi",
+      "Smart Boards",
+      "Cafeteria",
+    ],
     transport: ["Ameerpet Metro - 4 min walk", "Secunderabad Station - 7 km"],
     highlights: [
       "Telugu & English medium available",
       "Strong TSPSC + UPSC integration",
       "Rapidly growing community",
       "Scholarship programs for meritorious students",
-    ],
-  },
-  {
-    id: 6,
-    name: "SRIRAM IAS - Lucknow",
-    shortName: "Lucknow Center",
-    city: "Lucknow",
-    state: "Uttar Pradesh",
-    region: "north",
-    flagship: false,
-    established: "2019",
-    address: "Civil Lines, Ashok Marg, Near GPO, Lucknow - 226001",
-    phone: ["+91 522 4012 345"],
-    email: "lucknow@sriramias.com",
-    timing: "Mon - Sat: 8:00 AM - 7:00 PM | Sunday: Closed",
-    students: "3,500+",
-    faculty: "12+",
-    selections: "30+",
-    rating: 4.6,
-    reviews: 450,
-    image: "https://images.unsplash.com/photo-1577412647305-991150c7d163?w=800&q=80",
-    gradient: "from-amber-600 to-orange-700",
-    badge: "Newest Center",
-    badgeColor: "from-amber-500 to-orange-500",
-    mapUrl: "https://maps.google.com",
-    courses: ["Foundation", "Prelims", "Test Series"],
-    amenities: ["AC Classrooms", "Library", "WiFi", "Smart Boards"],
-    transport: ["Lucknow Metro - 10 min walk", "Charbagh Station - 4 km", "Airport - 18 km"],
-    highlights: [
-      "Hindi medium dedicated batches",
-      "Strong UPPSC + UPSC preparation",
-      "Affordable fee structure",
-      "Growing alumni network in UP cadre",
     ],
   },
 ];
@@ -338,8 +324,8 @@ const CENTERS_DATA = [
    ═══════════════════════════════════════════════════════════════════ */
 
 const REGION_FILTERS = [
-  { id: "all", label: "All Centers", icon: Globe, count: 6 },
-  { id: "north", label: "North India", icon: Landmark, count: 3 },
+  { id: "all", label: "All Centers", icon: Globe, count: 4 },
+  { id: "north", label: "North India", icon: Landmark, count: 1 },
   { id: "south", label: "South India", icon: MapPin, count: 3 },
 ];
 
@@ -349,13 +335,13 @@ const REGION_FILTERS = [
 
 const AMENITY_ICON_MAP = {
   "AC Classrooms": Wind,
-  "Library": Library,
-  "WiFi": Wifi,
-  "Cafeteria": Coffee,
-  "Parking": Car,
+  Library: Library,
+  WiFi: Wifi,
+  Cafeteria: Coffee,
+  Parking: Car,
   "Smart Boards": Tv2,
   "Discussion Rooms": MessageCircle,
-  "Printing": Printer,
+  Printing: Printer,
 };
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -363,10 +349,34 @@ const AMENITY_ICON_MAP = {
    ═══════════════════════════════════════════════════════════════════ */
 
 const CENTER_STATS = [
-  { value: "6", label: "Pan India Centers", icon: Building2, color: "text-blue-600", bg: "bg-blue-50" },
-  { value: "50K+", label: "Students Enrolled", icon: Users, color: "text-emerald-600", bg: "bg-emerald-50" },
-  { value: "128+", label: "Expert Faculty", icon: GraduationCap, color: "text-purple-600", bg: "bg-purple-50" },
-  { value: "585+", label: "UPSC Selections", icon: Trophy, color: "text-amber-600", bg: "bg-amber-50" },
+  {
+    value: "4",
+    label: "Pan India Centers",
+    icon: Building2,
+    color: "text-blue-600",
+    bg: "bg-blue-50",
+  },
+  {
+    value: "35K+",
+    label: "Students Enrolled",
+    icon: Users,
+    color: "text-emerald-600",
+    bg: "bg-emerald-50",
+  },
+  {
+    value: "88+",
+    label: "Expert Faculty",
+    icon: GraduationCap,
+    color: "text-purple-600",
+    bg: "bg-purple-50",
+  },
+  {
+    value: "405+",
+    label: "UPSC Selections",
+    icon: Trophy,
+    color: "text-amber-600",
+    bg: "bg-amber-50",
+  },
 ];
 
 /* ═══════════════════════════════════════════════════════════════════
@@ -416,10 +426,22 @@ const CenterParallax = () => {
 
   return (
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
-      <motion.div className="absolute -top-20 -right-16 w-96 h-96 rounded-full bg-gradient-to-br from-blue-100/20 to-indigo-100/20 blur-3xl" style={{ y: y1 }} />
-      <motion.div className="absolute top-1/3 -left-20 w-72 h-72 rounded-full bg-gradient-to-br from-emerald-100/15 to-teal-100/15 blur-3xl" style={{ y: y2 }} />
-      <motion.div className="absolute bottom-1/4 right-16 w-12 h-12 border-2 border-blue-200/20 rounded-xl" style={{ rotate: rotate1 }} />
-      <motion.div className="absolute top-1/5 left-20 w-8 h-8 border-2 border-indigo-200/20 rounded-full" style={{ rotate: rotate2 }} />
+      <motion.div
+        className="absolute -top-20 -right-16 w-96 h-96 rounded-full bg-gradient-to-br from-blue-100/20 to-indigo-100/20 blur-3xl"
+        style={{ y: y1 }}
+      />
+      <motion.div
+        className="absolute top-1/3 -left-20 w-72 h-72 rounded-full bg-gradient-to-br from-emerald-100/15 to-teal-100/15 blur-3xl"
+        style={{ y: y2 }}
+      />
+      <motion.div
+        className="absolute bottom-1/4 right-16 w-12 h-12 border-2 border-blue-200/20 rounded-xl"
+        style={{ rotate: rotate1 }}
+      />
+      <motion.div
+        className="absolute top-1/5 left-20 w-8 h-8 border-2 border-indigo-200/20 rounded-full"
+        style={{ rotate: rotate2 }}
+      />
       <motion.div
         className="absolute top-60 right-1/4 w-40 h-[1px] bg-gradient-to-r from-transparent via-blue-200/25 to-transparent"
         animate={{ scaleX: [0, 1, 0] }}
@@ -428,11 +450,25 @@ const CenterParallax = () => {
       <motion.div
         className="absolute bottom-40 left-1/3 w-32 h-[1px] bg-gradient-to-r from-transparent via-indigo-200/25 to-transparent"
         animate={{ scaleX: [0, 1, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 2 }}
+        transition={{
+          duration: 6,
+          repeat: Infinity,
+          ease: "easeInOut",
+          delay: 2,
+        }}
       />
       <div className="absolute bottom-16 right-16 grid grid-cols-4 gap-2.5 opacity-12">
         {[...Array(16)].map((_, i) => (
-          <motion.div key={i} className="w-1.5 h-1.5 rounded-full bg-blue-400" animate={{ opacity: [0.3, 0.8, 0.3] }} transition={{ duration: 2 + Math.random() * 2, repeat: Infinity, delay: Math.random() * 2 }} />
+          <motion.div
+            key={i}
+            className="w-1.5 h-1.5 rounded-full bg-blue-400"
+            animate={{ opacity: [0.3, 0.8, 0.3] }}
+            transition={{
+              duration: 2 + Math.random() * 2,
+              repeat: Infinity,
+              delay: Math.random() * 2,
+            }}
+          />
         ))}
       </div>
     </div>
@@ -466,34 +502,65 @@ const CenterSectionHeader = () => {
           className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-full bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200/60 shadow-lg shadow-blue-100/40"
           whileHover={{ scale: 1.05, y: -2 }}
         >
-          <motion.div animate={{ rotate: 360 }} transition={{ duration: 4, repeat: Infinity, ease: "linear" }}>
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
+          >
             <MapPin className="w-4 h-4 text-blue-600" />
           </motion.div>
           <span className="text-sm font-bold text-blue-700 uppercase tracking-wider">
             Visit Us Near You
           </span>
-          <motion.div animate={{ rotate: -360 }} transition={{ duration: 4, repeat: Infinity, ease: "linear" }}>
+          <motion.div
+            animate={{ rotate: -360 }}
+            transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
+          >
             <Navigation className="w-4 h-4 text-indigo-600" />
           </motion.div>
         </motion.div>
       </motion.div>
 
-      <motion.h2 variants={staggerItem} className="text-4xl lg:text-5xl xl:text-6xl font-black text-gray-900 mb-5 leading-tight">
+      <motion.h2
+        variants={staggerItem}
+        className="text-4xl lg:text-5xl xl:text-6xl font-black text-gray-900 mb-5 leading-tight"
+      >
         <span className="block">Find Our</span>
         <span className="block bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 bg-clip-text text-transparent">
           Offline Centers
         </span>
       </motion.h2>
 
-      <motion.p variants={staggerItem} className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-        Experience world-class UPSC coaching at our state-of-the-art centers across India.
-        Visit the one nearest to you and kickstart your IAS preparation journey.
+      <motion.p
+        variants={staggerItem}
+        className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed"
+      >
+        Experience world-class UPSC coaching at our state-of-the-art centers
+        across India. Visit the one nearest to you and kickstart your IAS
+        preparation journey.
       </motion.p>
 
-      <motion.div variants={staggerItem} className="flex items-center justify-center gap-2 mt-6">
-        <motion.div className="h-1 w-12 rounded-full bg-blue-300" initial={{ width: 0 }} animate={isInView ? { width: 48 } : { width: 0 }} transition={{ duration: 0.8, delay: 0.5 }} />
-        <motion.div className="h-1.5 w-20 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600" initial={{ width: 0 }} animate={isInView ? { width: 80 } : { width: 0 }} transition={{ duration: 0.8, delay: 0.6 }} />
-        <motion.div className="h-1 w-12 rounded-full bg-indigo-300" initial={{ width: 0 }} animate={isInView ? { width: 48 } : { width: 0 }} transition={{ duration: 0.8, delay: 0.7 }} />
+      <motion.div
+        variants={staggerItem}
+        className="flex items-center justify-center gap-2 mt-6"
+      >
+        <motion.div
+          className="h-1 w-12 rounded-full bg-blue-300"
+          initial={{ width: 0 }}
+          animate={isInView ? { width: 48 } : { width: 0 }}
+          transition={{ duration: 0.8, delay: 0.5 }}
+        />
+        <motion.div
+          className="h-1.5 w-20 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600"
+          initial={{ width: 0 }}
+          animate={isInView ? { width: 80 } : { width: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+        />
+        <motion.div
+          className="h-1 w-12 rounded-full bg-indigo-300"
+          initial={{ width: 0 }}
+          animate={isInView ? { width: 48 } : { width: 0 }}
+          transition={{ duration: 0.8, delay: 0.7 }}
+        />
       </motion.div>
     </motion.div>
   );
@@ -516,18 +583,35 @@ const CenterStatsBar = () => {
       className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-14"
     >
       {CENTER_STATS.map((stat, index) => (
-        <motion.div key={stat.label} variants={staggerItem} whileHover={{ y: -6, scale: 1.03 }} className="group">
-          <div className={`relative p-5 rounded-2xl ${stat.bg} border border-gray-100 shadow-lg overflow-hidden text-center transition-all duration-300 group-hover:shadow-xl`}>
+        <motion.div
+          key={stat.label}
+          variants={staggerItem}
+          whileHover={{ y: -6, scale: 1.03 }}
+          className="group"
+        >
+          <div
+            className={`relative p-5 rounded-2xl ${stat.bg} border border-gray-100 shadow-lg overflow-hidden text-center transition-all duration-300 group-hover:shadow-xl`}
+          >
             <motion.div className="absolute inset-0 bg-gradient-to-br from-blue-50/0 to-indigo-50/0 group-hover:from-blue-50 group-hover:to-indigo-50 transition-all duration-500" />
             <div className="relative z-10 flex items-center gap-4">
-              <motion.div className="w-12 h-12 rounded-xl bg-white flex items-center justify-center shadow-md" whileHover={{ rotate: [0, -10, 10, 0], scale: 1.15 }}>
+              <motion.div
+                className="w-12 h-12 rounded-xl bg-white flex items-center justify-center shadow-md"
+                whileHover={{ rotate: [0, -10, 10, 0], scale: 1.15 }}
+              >
                 <stat.icon className={`w-6 h-6 ${stat.color}`} />
               </motion.div>
               <div className="text-left">
-                <motion.p className="text-2xl font-black text-gray-900" initial={{ scale: 0 }} animate={isInView ? { scale: 1 } : { scale: 0 }} transition={{ delay: 0.3 + index * 0.1, type: "spring" }}>
+                <motion.p
+                  className="text-2xl font-black text-gray-900"
+                  initial={{ scale: 0 }}
+                  animate={isInView ? { scale: 1 } : { scale: 0 }}
+                  transition={{ delay: 0.3 + index * 0.1, type: "spring" }}
+                >
                   {stat.value}
                 </motion.p>
-                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">{stat.label}</p>
+                <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
+                  {stat.label}
+                </p>
               </div>
             </div>
           </div>
@@ -571,9 +655,13 @@ const RegionFilter = ({ activeRegion, onRegionChange }) => {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: index * 0.08 + 0.2 }}
             >
-              <region.icon className={`w-4 h-4 ${isActive ? "text-white" : "text-gray-400 group-hover:text-blue-500"}`} />
+              <region.icon
+                className={`w-4 h-4 ${isActive ? "text-white" : "text-gray-400 group-hover:text-blue-500"}`}
+              />
               <span className="whitespace-nowrap">{region.label}</span>
-              <span className={`px-1.5 py-0.5 rounded-full text-[10px] font-black ${isActive ? "bg-white/20 text-white" : "bg-gray-100 text-gray-500"}`}>
+              <span
+                className={`px-1.5 py-0.5 rounded-full text-[10px] font-black ${isActive ? "bg-white/20 text-white" : "bg-gray-100 text-gray-500"}`}
+              >
                 {region.count}
               </span>
             </motion.button>
@@ -593,8 +681,7 @@ const IndiaMapSection = () => {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   const cityPins = [
-    { city: "Delhi", x: "48%", y: "28%", count: 2, color: "bg-blue-500" },
-    { city: "Lucknow", x: "55%", y: "35%", count: 1, color: "bg-amber-500" },
+    { city: "Delhi", x: "48%", y: "28%", count: 1, color: "bg-blue-500" },
     { city: "Hyderabad", x: "48%", y: "62%", count: 1, color: "bg-rose-500" },
     { city: "Chennai", x: "52%", y: "75%", count: 1, color: "bg-purple-500" },
     { city: "Bangalore", x: "45%", y: "72%", count: 1, color: "bg-cyan-500" },
@@ -626,7 +713,7 @@ const IndiaMapSection = () => {
                   >
                     <Map className="w-10 h-10 text-white" />
                   </motion.div>
-                  <p className="text-white font-black text-xl">6 Centers</p>
+                  <p className="text-white font-black text-xl">4 Centers</p>
                   <p className="text-blue-200 text-sm">Across India</p>
                 </div>
               </div>
@@ -639,7 +726,11 @@ const IndiaMapSection = () => {
                   style={{ left: pin.x, top: pin.y }}
                   initial={{ scale: 0, opacity: 0 }}
                   animate={isInView ? { scale: 1, opacity: 1 } : {}}
-                  transition={{ delay: 0.5 + i * 0.15, type: "spring", stiffness: 200 }}
+                  transition={{
+                    delay: 0.5 + i * 0.15,
+                    type: "spring",
+                    stiffness: 200,
+                  }}
                 >
                   <motion.div
                     className="relative group cursor-pointer"
@@ -649,15 +740,25 @@ const IndiaMapSection = () => {
                     <motion.div
                       className={`absolute -inset-2 rounded-full ${pin.color} opacity-30`}
                       animate={{ scale: [1, 2, 1], opacity: [0.3, 0, 0.3] }}
-                      transition={{ duration: 2, repeat: Infinity, delay: i * 0.3 }}
+                      transition={{
+                        duration: 2,
+                        repeat: Infinity,
+                        delay: i * 0.3,
+                      }}
                     />
                     {/* Dot */}
-                    <div className={`w-5 h-5 rounded-full ${pin.color} ring-2 ring-white/40 shadow-lg flex items-center justify-center`}>
-                      <span className="text-[8px] font-black text-white">{pin.count}</span>
+                    <div
+                      className={`w-5 h-5 rounded-full ${pin.color} ring-2 ring-white/40 shadow-lg flex items-center justify-center`}
+                    >
+                      <span className="text-[8px] font-black text-white">
+                        {pin.count}
+                      </span>
                     </div>
                     {/* Label */}
                     <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 whitespace-nowrap">
-                      <span className="text-[10px] font-bold text-white/80 bg-black/20 px-1.5 py-0.5 rounded-full backdrop-blur-sm">{pin.city}</span>
+                      <span className="text-[10px] font-bold text-white/80 bg-black/20 px-1.5 py-0.5 rounded-full backdrop-blur-sm">
+                        {pin.city}
+                      </span>
                     </div>
                   </motion.div>
                 </motion.div>
@@ -666,29 +767,37 @@ const IndiaMapSection = () => {
           </motion.div>
 
           {/* Right - Info */}
-          <motion.div variants={fadeInRight} className="lg:w-1/2 text-white space-y-6">
+          <motion.div
+            variants={fadeInRight}
+            className="lg:w-1/2 text-white space-y-6"
+          >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 border border-white/20">
               <Locate className="w-4 h-4 text-blue-300" />
-              <span className="text-sm font-bold text-blue-200">Our Presence Across India</span>
+              <span className="text-sm font-bold text-blue-200">
+                Our Presence Across India
+              </span>
             </div>
 
             <h3 className="text-3xl lg:text-4xl font-black leading-tight">
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-indigo-200">6 World-Class</span>{" "}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-indigo-200">
+                6 World-Class
+              </span>{" "}
               Centers, One Mission
             </h3>
 
             <p className="text-blue-100 leading-relaxed">
-              From the coaching hub of Old Rajinder Nagar in Delhi to the tech city of Bangalore,
-              our centers are strategically located to serve aspirants across India. Each center
-              maintains the same high standards of teaching, infrastructure, and support.
+              From the coaching hub of Old Rajinder Nagar in Delhi to the tech
+              city of Bangalore, our centers are strategically located to serve
+              aspirants across India. Each center maintains the same high
+              standards of teaching, infrastructure, and support.
             </p>
 
             <div className="grid grid-cols-2 gap-3">
               {[
-                { icon: Building2, text: "6 Pan-India Centers" },
-                { icon: Users, text: "50,000+ Students" },
-                { icon: GraduationCap, text: "128+ Expert Faculty" },
-                { icon: Trophy, text: "585+ UPSC Selections" },
+                { icon: Building2, text: "4 Pan-India Centers" },
+                { icon: Users, text: "35,000+ Students" },
+                { icon: GraduationCap, text: "88+ Expert Faculty" },
+                { icon: Trophy, text: "405+ UPSC Selections" },
                 { icon: Monitor, text: "Smart Classrooms" },
                 { icon: Shield, text: "Same Quality Everywhere" },
               ].map((item, i) => (
@@ -698,10 +807,15 @@ const IndiaMapSection = () => {
                   initial={{ opacity: 0, x: 30 }}
                   animate={isInView ? { opacity: 1, x: 0 } : {}}
                   transition={{ delay: 0.6 + i * 0.08 }}
-                  whileHover={{ scale: 1.05, backgroundColor: "rgba(255,255,255,0.15)" }}
+                  whileHover={{
+                    scale: 1.05,
+                    backgroundColor: "rgba(255,255,255,0.15)",
+                  }}
                 >
                   <item.icon className="w-4 h-4 text-blue-300 flex-shrink-0" />
-                  <span className="text-xs font-semibold text-blue-100">{item.text}</span>
+                  <span className="text-xs font-semibold text-blue-100">
+                    {item.text}
+                  </span>
                 </motion.div>
               ))}
             </div>
@@ -730,7 +844,10 @@ const StarRating = ({ rating, reviews }) => (
   <div className="flex items-center gap-2">
     <div className="flex items-center gap-0.5">
       {[...Array(5)].map((_, i) => (
-        <Star key={i} className={`w-3.5 h-3.5 ${i < Math.floor(rating) ? "fill-amber-400 text-amber-400" : "fill-gray-200 text-gray-200"}`} />
+        <Star
+          key={i}
+          className={`w-3.5 h-3.5 ${i < Math.floor(rating) ? "fill-amber-400 text-amber-400" : "fill-gray-200 text-gray-200"}`}
+        />
       ))}
     </div>
     <span className="text-sm font-bold text-gray-700">{rating}</span>
@@ -748,14 +865,19 @@ const CenterCard = ({ center, index }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
-  const AmenityIcon = (amenityName) => AMENITY_ICON_MAP[amenityName] || CheckCircle;
+  const AmenityIcon = (amenityName) =>
+    AMENITY_ICON_MAP[amenityName] || CheckCircle;
 
   return (
     <motion.div
       ref={ref}
       initial={{ opacity: 0, y: 80 }}
       animate={isInView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.7, delay: index * 0.12, ease: [0.25, 0.46, 0.45, 0.94] }}
+      transition={{
+        duration: 0.7,
+        delay: index * 0.12,
+        ease: [0.25, 0.46, 0.45, 0.94],
+      }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className="group"
@@ -771,7 +893,9 @@ const CenterCard = ({ center, index }) => {
             animate={{ scale: isHovered ? 1.08 : 1 }}
             transition={{ duration: 0.6 }}
           />
-          <div className={`absolute inset-0 bg-gradient-to-t ${center.gradient} opacity-70`} />
+          <div
+            className={`absolute inset-0 bg-gradient-to-t ${center.gradient} opacity-70`}
+          />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
 
           {/* Badge */}
@@ -781,7 +905,11 @@ const CenterCard = ({ center, index }) => {
             animate={isInView ? { x: 0, opacity: 1 } : {}}
             transition={{ delay: index * 0.12 + 0.3, type: "spring" }}
           >
-            {center.flagship ? <Crown className="w-3 h-3" /> : <Flame className="w-3 h-3" />}
+            {center.flagship ? (
+              <Crown className="w-3 h-3" />
+            ) : (
+              <Flame className="w-3 h-3" />
+            )}
             {center.badge}
           </motion.div>
 
@@ -792,10 +920,18 @@ const CenterCard = ({ center, index }) => {
             animate={isHovered ? { x: 0, opacity: 1 } : { x: 50, opacity: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <motion.button className="w-9 h-9 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white/30 transition-all shadow-lg" whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.9 }}>
+            <motion.button
+              className="w-9 h-9 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white/30 transition-all shadow-lg"
+              whileHover={{ scale: 1.15 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <Heart className="w-4 h-4" />
             </motion.button>
-            <motion.button className="w-9 h-9 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white/30 transition-all shadow-lg" whileHover={{ scale: 1.15 }} whileTap={{ scale: 0.9 }}>
+            <motion.button
+              className="w-9 h-9 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white hover:bg-white/30 transition-all shadow-lg"
+              whileHover={{ scale: 1.15 }}
+              whileTap={{ scale: 0.9 }}
+            >
               <Share2 className="w-4 h-4" />
             </motion.button>
           </motion.div>
@@ -821,7 +957,9 @@ const CenterCard = ({ center, index }) => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-1.5">
               <MapPin className="w-4 h-4 text-blue-600" />
-              <span className="text-sm font-bold text-blue-600">{center.city}, {center.state}</span>
+              <span className="text-sm font-bold text-blue-600">
+                {center.city}, {center.state}
+              </span>
             </div>
             <StarRating rating={center.rating} reviews={center.reviews} />
           </div>
@@ -832,16 +970,26 @@ const CenterCard = ({ center, index }) => {
           </h3>
 
           {/* Address */}
-          <p className="text-sm text-gray-500 leading-relaxed">{center.address}</p>
+          <p className="text-sm text-gray-500 leading-relaxed">
+            {center.address}
+          </p>
 
           {/* Quick Stats */}
           <div className="grid grid-cols-3 gap-2">
             {[
               { label: "Faculty", value: center.faculty, icon: GraduationCap },
               { label: "Selections", value: center.selections, icon: Trophy },
-              { label: "Courses", value: center.courses.length, icon: BookOpen },
+              {
+                label: "Courses",
+                value: center.courses.length,
+                icon: BookOpen,
+              },
             ].map((s) => (
-              <motion.div key={s.label} className="text-center p-2 rounded-xl bg-blue-50 border border-blue-100/50" whileHover={{ scale: 1.05 }}>
+              <motion.div
+                key={s.label}
+                className="text-center p-2 rounded-xl bg-blue-50 border border-blue-100/50"
+                whileHover={{ scale: 1.05 }}
+              >
                 <s.icon className="w-4 h-4 text-blue-600 mx-auto mb-1" />
                 <p className="text-sm font-black text-gray-800">{s.value}</p>
                 <p className="text-[10px] text-gray-400 uppercase">{s.label}</p>
@@ -859,7 +1007,9 @@ const CenterCard = ({ center, index }) => {
           <div className="space-y-2">
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-blue-500" />
-              <span className="text-sm font-semibold text-gray-700">{center.phone[0]}</span>
+              <span className="text-sm font-semibold text-gray-700">
+                {center.phone[0]}
+              </span>
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4 text-blue-500" />
@@ -869,7 +1019,9 @@ const CenterCard = ({ center, index }) => {
 
           {/* Available Courses */}
           <div>
-            <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Available Courses</p>
+            <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
+              Available Courses
+            </p>
             <div className="flex flex-wrap gap-1.5">
               {center.courses.map((course) => (
                 <motion.span
@@ -908,12 +1060,18 @@ const CenterCard = ({ center, index }) => {
                 <div className="space-y-4 pt-2">
                   {/* Amenities */}
                   <div>
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Amenities</p>
+                    <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
+                      Amenities
+                    </p>
                     <div className="grid grid-cols-2 gap-2">
                       {center.amenities.map((amenity) => {
                         const Icon = AmenityIcon(amenity);
                         return (
-                          <motion.div key={amenity} className="flex items-center gap-2 text-xs text-gray-600" whileHover={{ x: 3 }}>
+                          <motion.div
+                            key={amenity}
+                            className="flex items-center gap-2 text-xs text-gray-600"
+                            whileHover={{ x: 3 }}
+                          >
                             <Icon className="w-3.5 h-3.5 text-blue-500" />
                             <span>{amenity}</span>
                           </motion.div>
@@ -924,10 +1082,15 @@ const CenterCard = ({ center, index }) => {
 
                   {/* Transport */}
                   <div>
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">How to Reach</p>
+                    <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
+                      How to Reach
+                    </p>
                     <div className="space-y-1.5">
                       {center.transport.map((t) => (
-                        <div key={t} className="flex items-center gap-2 text-xs text-gray-500">
+                        <div
+                          key={t}
+                          className="flex items-center gap-2 text-xs text-gray-500"
+                        >
                           <Train className="w-3.5 h-3.5 text-green-500 flex-shrink-0" />
                           <span>{t}</span>
                         </div>
@@ -937,10 +1100,16 @@ const CenterCard = ({ center, index }) => {
 
                   {/* Highlights */}
                   <div>
-                    <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">Center Highlights</p>
+                    <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
+                      Center Highlights
+                    </p>
                     <div className="space-y-1.5">
                       {center.highlights.map((h) => (
-                        <motion.div key={h} className="flex items-start gap-2 text-xs text-gray-600" whileHover={{ x: 3 }}>
+                        <motion.div
+                          key={h}
+                          className="flex items-start gap-2 text-xs text-gray-600"
+                          whileHover={{ x: 3 }}
+                        >
                           <CheckCircle className="w-3.5 h-3.5 text-green-500 mt-0.5 flex-shrink-0" />
                           <span>{h}</span>
                         </motion.div>
@@ -987,14 +1156,70 @@ const FacilitiesShowcase = () => {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
   const facilities = [
-    { icon: Tv2, title: "Smart Classrooms", description: "Interactive smart boards, HD projectors, and digital teaching aids for immersive learning experience.", color: "from-blue-500 to-indigo-600", bg: "bg-blue-50" },
-    { icon: Library, title: "Extensive Library", description: "50,000+ books, journals, magazines, and previous year papers. Open 12+ hours daily.", color: "from-emerald-500 to-teal-600", bg: "bg-emerald-50" },
-    { icon: Wifi, title: "High-Speed WiFi", description: "Seamless internet connectivity across all centers for online resources and recorded lectures.", color: "from-purple-500 to-pink-600", bg: "bg-purple-50" },
-    { icon: MessageCircle, title: "Discussion Rooms", description: "Dedicated group discussion rooms for peer learning, debates, and mock interview practice.", color: "from-amber-500 to-orange-600", bg: "bg-amber-50" },
-    { icon: Coffee, title: "Cafeteria", description: "Hygienic, subsidized cafeteria serving nutritious meals and refreshments for students.", color: "from-rose-500 to-red-600", bg: "bg-rose-50" },
-    { icon: Wind, title: "Air Conditioned", description: "Fully air-conditioned classrooms and study halls for comfortable year-round learning.", color: "from-cyan-500 to-blue-600", bg: "bg-cyan-50" },
-    { icon: Monitor, title: "Computer Lab", description: "Online test practice, digital assessments, and research facilities available for all students.", color: "from-indigo-500 to-violet-600", bg: "bg-indigo-50" },
-    { icon: Accessibility, title: "Accessible", description: "Wheelchair ramps, lifts, and special assistance available at all our centers.", color: "from-teal-500 to-green-600", bg: "bg-teal-50" },
+    {
+      icon: Tv2,
+      title: "Smart Classrooms",
+      description:
+        "Interactive smart boards, HD projectors, and digital teaching aids for immersive learning experience.",
+      color: "from-blue-500 to-indigo-600",
+      bg: "bg-blue-50",
+    },
+    {
+      icon: Library,
+      title: "Extensive Library",
+      description:
+        "50,000+ books, journals, magazines, and previous year papers. Open 12+ hours daily.",
+      color: "from-emerald-500 to-teal-600",
+      bg: "bg-emerald-50",
+    },
+    {
+      icon: Wifi,
+      title: "High-Speed WiFi",
+      description:
+        "Seamless internet connectivity across all centers for online resources and recorded lectures.",
+      color: "from-purple-500 to-pink-600",
+      bg: "bg-purple-50",
+    },
+    {
+      icon: MessageCircle,
+      title: "Discussion Rooms",
+      description:
+        "Dedicated group discussion rooms for peer learning, debates, and mock interview practice.",
+      color: "from-amber-500 to-orange-600",
+      bg: "bg-amber-50",
+    },
+    {
+      icon: Coffee,
+      title: "Cafeteria",
+      description:
+        "Hygienic, subsidized cafeteria serving nutritious meals and refreshments for students.",
+      color: "from-rose-500 to-red-600",
+      bg: "bg-rose-50",
+    },
+    {
+      icon: Wind,
+      title: "Air Conditioned",
+      description:
+        "Fully air-conditioned classrooms and study halls for comfortable year-round learning.",
+      color: "from-cyan-500 to-blue-600",
+      bg: "bg-cyan-50",
+    },
+    {
+      icon: Monitor,
+      title: "Computer Lab",
+      description:
+        "Online test practice, digital assessments, and research facilities available for all students.",
+      color: "from-indigo-500 to-violet-600",
+      bg: "bg-indigo-50",
+    },
+    {
+      icon: Accessibility,
+      title: "Accessible",
+      description:
+        "Wheelchair ramps, lifts, and special assistance available at all our centers.",
+      color: "from-teal-500 to-green-600",
+      bg: "bg-teal-50",
+    },
   ];
 
   return (
@@ -1006,21 +1231,38 @@ const FacilitiesShowcase = () => {
       className="mb-14"
     >
       <motion.div variants={staggerItem} className="text-center mb-10">
-        <motion.div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 border border-indigo-100 mb-4" whileHover={{ scale: 1.05 }}>
+        <motion.div
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 border border-indigo-100 mb-4"
+          whileHover={{ scale: 1.05 }}
+        >
           <Zap className="w-4 h-4 text-indigo-600" />
-          <span className="text-sm font-bold text-indigo-700 uppercase tracking-wider">World-Class Infrastructure</span>
+          <span className="text-sm font-bold text-indigo-700 uppercase tracking-wider">
+            World-Class Infrastructure
+          </span>
         </motion.div>
         <h3 className="text-3xl lg:text-4xl font-black text-gray-900 mb-3">
           Facilities at Our <span className="text-blue-600">Centers</span>
         </h3>
-        <p className="text-gray-500 max-w-2xl mx-auto">Every center is equipped with state-of-the-art facilities to ensure the best learning environment.</p>
+        <p className="text-gray-500 max-w-2xl mx-auto">
+          Every center is equipped with state-of-the-art facilities to ensure
+          the best learning environment.
+        </p>
       </motion.div>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
         {facilities.map((fac, index) => (
-          <motion.div key={fac.title} variants={staggerItem} whileHover={{ y: -8, scale: 1.03 }} className="group">
-            <div className={`relative h-full p-6 rounded-2xl ${fac.bg} border border-gray-100 shadow-lg overflow-hidden transition-all duration-300 group-hover:shadow-xl`}>
-              <motion.div className={`absolute inset-0 bg-gradient-to-br ${fac.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`} />
+          <motion.div
+            key={fac.title}
+            variants={staggerItem}
+            whileHover={{ y: -8, scale: 1.03 }}
+            className="group"
+          >
+            <div
+              className={`relative h-full p-6 rounded-2xl ${fac.bg} border border-gray-100 shadow-lg overflow-hidden transition-all duration-300 group-hover:shadow-xl`}
+            >
+              <motion.div
+                className={`absolute inset-0 bg-gradient-to-br ${fac.color} opacity-0 group-hover:opacity-5 transition-opacity duration-500`}
+              />
               <div className="relative z-10">
                 <motion.div
                   className={`w-12 h-12 rounded-xl bg-gradient-to-br ${fac.color} flex items-center justify-center mb-4 shadow-md`}
@@ -1028,8 +1270,12 @@ const FacilitiesShowcase = () => {
                 >
                   <fac.icon className="w-6 h-6 text-white" />
                 </motion.div>
-                <h4 className="text-sm font-black text-gray-900 mb-1.5 group-hover:text-blue-700 transition-colors">{fac.title}</h4>
-                <p className="text-xs text-gray-500 leading-relaxed">{fac.description}</p>
+                <h4 className="text-sm font-black text-gray-900 mb-1.5 group-hover:text-blue-700 transition-colors">
+                  {fac.title}
+                </h4>
+                <p className="text-xs text-gray-500 leading-relaxed">
+                  {fac.description}
+                </p>
               </div>
             </div>
           </motion.div>
@@ -1057,24 +1303,44 @@ const VisitCTA = () => {
     >
       <div className="relative rounded-3xl overflow-hidden bg-gradient-to-r from-blue-600 via-indigo-700 to-purple-700 p-10 lg:p-14 shadow-2xl shadow-blue-500/20">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.3'%3E%3Ccircle cx='30' cy='30' r='1.5'/%3E%3C/g%3E%3C/svg%3E")` }} />
+          <div
+            className="absolute inset-0"
+            style={{
+              backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.3'%3E%3Ccircle cx='30' cy='30' r='1.5'/%3E%3C/g%3E%3C/svg%3E")`,
+            }}
+          />
         </div>
-        <motion.div className="absolute top-6 left-6 w-24 h-24 rounded-full bg-white/5" animate={{ scale: [1, 1.3, 1] }} transition={{ duration: 8, repeat: Infinity }} />
-        <motion.div className="absolute bottom-6 right-6 w-16 h-16 rounded-full bg-white/5" animate={{ y: [0, -15, 0] }} transition={{ duration: 5, repeat: Infinity }} />
+        <motion.div
+          className="absolute top-6 left-6 w-24 h-24 rounded-full bg-white/5"
+          animate={{ scale: [1, 1.3, 1] }}
+          transition={{ duration: 8, repeat: Infinity }}
+        />
+        <motion.div
+          className="absolute bottom-6 right-6 w-16 h-16 rounded-full bg-white/5"
+          animate={{ y: [0, -15, 0] }}
+          transition={{ duration: 5, repeat: Infinity }}
+        />
 
         <div className="relative z-10 flex flex-col lg:flex-row items-center gap-10">
           {/* Left */}
           <div className="flex-1 text-white space-y-5">
-            <motion.div animate={{ rotate: 360 }} transition={{ duration: 12, repeat: Infinity, ease: "linear" }} className="inline-block">
+            <motion.div
+              animate={{ rotate: 360 }}
+              transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
+              className="inline-block"
+            >
               <div className="w-16 h-16 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center shadow-lg">
                 <MapPin className="w-8 h-8 text-white" />
               </div>
             </motion.div>
 
-            <h3 className="text-3xl lg:text-4xl font-black">Visit Our Nearest Center</h3>
+            <h3 className="text-3xl lg:text-4xl font-black">
+              Visit Our Nearest Center
+            </h3>
             <p className="text-blue-100 text-base max-w-xl leading-relaxed">
-              Nothing beats experiencing our learning environment firsthand. Schedule a free
-              campus visit, attend a demo class, and interact with our faculty & students.
+              Nothing beats experiencing our learning environment firsthand.
+              Schedule a free campus visit, attend a demo class, and interact
+              with our faculty & students.
             </p>
 
             <div className="space-y-3">
@@ -1101,7 +1367,9 @@ const VisitCTA = () => {
           {/* Right - Form / CTA */}
           <div className="w-full lg:w-96 flex-shrink-0">
             <div className="rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 p-6 space-y-4">
-              <h4 className="text-lg font-black text-white text-center">Schedule a Free Visit</h4>
+              <h4 className="text-lg font-black text-white text-center">
+                Schedule a Free Visit
+              </h4>
 
               <div className="space-y-3">
                 <input
@@ -1118,9 +1386,13 @@ const VisitCTA = () => {
                   className="w-full px-4 py-3 rounded-xl bg-white/10 border border-white/20 text-white/60 text-sm focus:outline-none focus:border-white/40 transition-colors appearance-none"
                   defaultValue=""
                 >
-                  <option value="" disabled>Preferred Center</option>
+                  <option value="" disabled>
+                    Preferred Center
+                  </option>
                   {CENTERS_DATA.map((c) => (
-                    <option key={c.id} value={c.id} className="text-gray-900">{c.shortName}</option>
+                    <option key={c.id} value={c.id} className="text-gray-900">
+                      {c.shortName}
+                    </option>
                   ))}
                 </select>
                 <input
@@ -1136,13 +1408,17 @@ const VisitCTA = () => {
               >
                 <Calendar className="w-4 h-4" />
                 Book Free Visit
-                <motion.div animate={{ x: [0, 4, 0] }} transition={{ duration: 1.5, repeat: Infinity }}>
+                <motion.div
+                  animate={{ x: [0, 4, 0] }}
+                  transition={{ duration: 1.5, repeat: Infinity }}
+                >
                   <ArrowRight className="w-4 h-4" />
                 </motion.div>
               </motion.button>
 
               <p className="text-center text-[10px] text-blue-300/50">
-                We'll confirm your visit within 24 hours. No obligation, no fees.
+                We'll confirm your visit within 24 hours. No obligation, no
+                fees.
               </p>
             </div>
           </div>
@@ -1159,12 +1435,10 @@ const VisitCTA = () => {
 const CentersTicker = () => {
   const items = [
     "📍 Delhi — Old Rajinder Nagar (Flagship)",
-    "📍 Delhi — Mukherjee Nagar",
     "📍 Chennai — Anna Salai",
     "📍 Bangalore — MG Road",
     "📍 Hyderabad — Ameerpet",
-    "📍 Lucknow — Civil Lines",
-    "🏗️ New Center Coming Soon — Kolkata!",
+    "🏗️ New Centers Coming Soon!",
     "🆓 Free Campus Visit Available",
   ];
 
@@ -1176,7 +1450,10 @@ const CentersTicker = () => {
         transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
       >
         {[...items, ...items, ...items].map((item, i) => (
-          <span key={i} className="text-sm font-semibold text-gray-600 flex items-center gap-2">
+          <span
+            key={i}
+            className="text-sm font-semibold text-gray-600 flex items-center gap-2"
+          >
             {item}
             <span className="text-blue-300">•</span>
           </span>
@@ -1209,7 +1486,10 @@ const FindOfflineCenters = () => {
         <CentersTicker />
         <IndiaMapSection />
 
-        <RegionFilter activeRegion={activeRegion} onRegionChange={setActiveRegion} />
+        <RegionFilter
+          activeRegion={activeRegion}
+          onRegionChange={setActiveRegion}
+        />
 
         {/* Centers Grid */}
         <AnimatePresence mode="wait">
