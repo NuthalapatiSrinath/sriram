@@ -2001,7 +2001,7 @@ const AboutDropdown = ({ isOpen }) => {
 };
 
 /* ——— 11. Mobile Menu Drawer ——— */
-const MobileDrawer = ({ isOpen, onClose, themeMode, onToggleTheme }) => {
+const MobileDrawer = ({ isOpen, onClose }) => {
   const [expandedItem, setExpandedItem] = useState(null);
   const location = useLocation();
 
@@ -2263,33 +2263,6 @@ const MobileDrawer = ({ isOpen, onClose, themeMode, onToggleTheme }) => {
 
             {/* Drawer Footer */}
             <div className="border-t border-blue-100 dark:border-blue-800/30 px-4 py-4 space-y-3 bg-gradient-to-r from-blue-50/50 to-indigo-50/50 dark:from-blue-900/10 dark:to-indigo-900/10">
-              {/* Theme toggle */}
-              <div className="flex items-center justify-between px-2">
-                <div className="flex items-center gap-2">
-                  {themeMode === "dark" ? (
-                    <Moon className="w-4 h-4 text-blue-400" />
-                  ) : (
-                    <Sun className="w-4 h-4 text-amber-500" />
-                  )}
-                  <span className="text-xs text-gray-600 dark:text-gray-400">
-                    {themeMode === "dark" ? "Dark Mode" : "Light Mode"}
-                  </span>
-                </div>
-                <motion.button
-                  onClick={onToggleTheme}
-                  className={`w-10 h-5 rounded-full relative transition-colors duration-300 ${
-                    themeMode === "dark" ? "bg-blue-600" : "bg-gray-300"
-                  }`}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <motion.div
-                    className="w-4 h-4 rounded-full bg-white shadow-md absolute top-0.5"
-                    animate={{ x: themeMode === "dark" ? 20 : 2 }}
-                    transition={{ type: "spring", stiffness: 400, damping: 25 }}
-                  />
-                </motion.button>
-              </div>
-
               {/* Auth buttons */}
               <div className="flex gap-2">
                 \n{" "}
@@ -2840,12 +2813,6 @@ const Header = () => {
 
               {/* Right: Actions */}
               <div className="flex items-center gap-2">
-                {/* Theme Toggle */}
-                <ThemeToggleButton
-                  themeMode={themeMode}
-                  onToggle={handleThemeToggle}
-                />
-
                 {/* Notifications */}
                 <div className="relative">
                   <NotificationButton
@@ -2905,8 +2872,6 @@ const Header = () => {
       <MobileDrawer
         isOpen={mobileMenuOpen}
         onClose={() => setMobileMenuOpen(false)}
-        themeMode={themeMode}
-        onToggleTheme={handleThemeToggle}
       />
 
       {/* Spacer for fixed header */}
